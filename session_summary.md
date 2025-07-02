@@ -20,3 +20,14 @@
 - `npm init -y` でNode.jsプロジェクトを初期化し、`package.json` を作成しました。
 - `npm install express` でExpressフレームワークをインストールしました。
 - `index.js` に基本的なWebサーバーのコードを記述しました。
+
+### 5. GitへのコミットとPush
+- `node_modules` などを無視するため、`.gitignore` ファイルを作成・編集しました。
+- `git add .` と `git commit` で変更をコミットしました。
+- `git push` でHTTPS経由での認証に失敗しました。
+- `git remote set-url` でリモートURLをSSHに変更し、再度 `git push` を実行して成功しました。
+
+### 6. サーバーの起動とトラブルシューティング
+- `node index.js` でサーバーを起動しようとしましたが、フォアグラウンドで実行されるため処理がブロックされる問題がありました。
+- `node index.js &` を使用してバックグラウンドでサーバーを起動し、問題を解決しました。
+- `curl` を使って `http://localhost:3000` にアクセスし、サーバーが "Hello, MCP Server!" と応答することを確認しました。
