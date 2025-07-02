@@ -1,0 +1,23 @@
+{
+  "name": "dev_mcpserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0bara/dev_mcpserver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0bara/dev_mcpserver/issues"
+  },
+  "homepage": "https://github.com/0bara/dev_mcpserver#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
